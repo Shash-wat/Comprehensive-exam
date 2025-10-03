@@ -1,0 +1,14 @@
+/* Extra styling beyond Tailwind */
+.option-btn {
+  transition: all 0.2s ease-in-out;
+}
+
+.option-btn.correct {
+  background-color: #22c55e; /* Tailwind green-500 */
+  color: white;
+}
+
+.option-btn.wrong {
+  background-color: #ef4444; /* Tailwind red-500 */
+  color: white;
+}
